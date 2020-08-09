@@ -1,0 +1,51 @@
+body{
+	background-color: beige;
+}
+
+.container{
+	border: 20px solid #bdc3c7;
+	padding: 4%;
+	margin: 3%;
+	background-color: black;
+}
+
+h1{
+	color: white;
+	text-transform: capitalize;
+}
+
+h1,p{
+	font-family: sans-serif;
+}
+
+p{
+	color: pink;
+}
+
+.date{
+	color: #3498db;
+}
+
+.start{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: green;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
